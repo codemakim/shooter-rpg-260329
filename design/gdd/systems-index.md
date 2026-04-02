@@ -20,8 +20,8 @@ IRONCLAW는 탑다운 슈터 ARPG로, 소울나이트의 직관적 조작과 디
 
 | # | System Name | Category | Priority | Status | Design Doc | Depends On |
 |---|-------------|----------|----------|--------|------------|------------|
-| 1 | Damage Calculator | Gameplay | MVP | Not Started | — | — |
-| 2 | Status Effect System | Gameplay | MVP | Not Started | — | Damage Calculator |
+| 1 | Damage Calculator | Gameplay | MVP | Designed | design/gdd/damage-calculator.md | — |
+| 2 | Status Effect System | Gameplay | MVP | Designed | design/gdd/status-effect-system.md | Damage Calculator |
 | 3 | Input System | Core | MVP | Not Started | — | — |
 | 4 | Camera System | Core | MVP | Not Started | — | — |
 | 5 | Scene Manager | Core | MVP | Not Started | — | — |
@@ -187,10 +187,10 @@ Effort: S = 1 session, M = 2-3 sessions, L = 4+ sessions
 | Metric | Count |
 |--------|-------|
 | Total systems identified | 28 |
-| Design docs started | 0 |
+| Design docs started | 2 |
 | Design docs reviewed | 0 |
 | Design docs approved | 0 |
-| MVP systems designed | 0/18 |
+| MVP systems designed | 2/18 |
 | Vertical Slice systems designed | 0/7 |
 
 ---
