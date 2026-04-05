@@ -28,8 +28,8 @@ IRONCLAW는 탑다운 슈터 ARPG로, 소울나이트의 직관적 조작과 디
 | 6 | Player Controller | Core | MVP | Designed | design/gdd/player-controller.md | Input System, Camera System |
 | 7 | Combat System | Gameplay | MVP | Designed | design/gdd/combat-system.md | Player Controller, Damage Calculator, Status Effect |
 | 8 | Skill System | Gameplay | MVP | Designed | design/gdd/skill-system.md | Player Controller, Damage Calculator, Status Effect |
-| 9 | Item Affix Generator | Economy | MVP | Not Started | — | — |
-| 10 | Item System | Economy | MVP | Not Started | — | Item Affix Generator |
+| 9 | Item Affix Generator | Economy | MVP | Designed | design/gdd/item-affix-generator.md | — |
+| 10 | Item System | Economy | MVP | Designed | design/gdd/item-system.md | Item Affix Generator |
 | 11 | Drop Table | Economy | MVP | Not Started | — | Item System |
 | 12 | Inventory System | Economy | MVP | Not Started | — | Item System |
 | 13 | Equipment Slot System | Economy | MVP | Not Started | — | Item System, Inventory System |
@@ -187,10 +187,10 @@ Effort: S = 1 session, M = 2-3 sessions, L = 4+ sessions
 | Metric | Count |
 |--------|-------|
 | Total systems identified | 28 |
-| Design docs started | 8 |
+| Design docs started | 10 |
 | Design docs reviewed | 0 |
 | Design docs approved | 0 |
-| MVP systems designed | 8/18 |
+| MVP systems designed | 10/18 |
 | Vertical Slice systems designed | 0/7 |
 
 ---
