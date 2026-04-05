@@ -22,10 +22,10 @@ IRONCLAW는 탑다운 슈터 ARPG로, 소울나이트의 직관적 조작과 디
 |---|-------------|----------|----------|--------|------------|------------|
 | 1 | Damage Calculator | Gameplay | MVP | Designed | design/gdd/damage-calculator.md | — |
 | 2 | Status Effect System | Gameplay | MVP | Designed | design/gdd/status-effect-system.md | Damage Calculator |
-| 3 | Input System | Core | MVP | Not Started | — | — |
-| 4 | Camera System | Core | MVP | Not Started | — | — |
-| 5 | Scene Manager | Core | MVP | Not Started | — | — |
-| 6 | Player Controller | Core | MVP | Not Started | — | Input System, Camera System |
+| 3 | Input System | Core | MVP | Designed | design/gdd/input-system.md | — |
+| 4 | Camera System | Core | MVP | Designed | design/gdd/camera-system.md | — |
+| 5 | Scene Manager | Core | MVP | Designed | design/gdd/scene-manager.md | — |
+| 6 | Player Controller | Core | MVP | Designed | design/gdd/player-controller.md | Input System, Camera System |
 | 7 | Combat System | Gameplay | MVP | Not Started | — | Player Controller, Damage Calculator, Status Effect |
 | 8 | Skill System | Gameplay | MVP | Not Started | — | Player Controller, Damage Calculator, Status Effect |
 | 9 | Item Affix Generator | Economy | MVP | Not Started | — | — |
@@ -187,10 +187,10 @@ Effort: S = 1 session, M = 2-3 sessions, L = 4+ sessions
 | Metric | Count |
 |--------|-------|
 | Total systems identified | 28 |
-| Design docs started | 2 |
+| Design docs started | 6 |
 | Design docs reviewed | 0 |
 | Design docs approved | 0 |
-| MVP systems designed | 2/18 |
+| MVP systems designed | 6/18 |
 | Vertical Slice systems designed | 0/7 |
 
 ---
