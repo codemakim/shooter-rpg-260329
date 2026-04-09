@@ -30,7 +30,7 @@ IRONCLAW는 탑다운 슈터 ARPG로, 소울나이트의 직관적 조작과 디
 | 8 | Skill System | Gameplay | MVP | Designed | design/gdd/skill-system.md | Player Controller, Damage Calculator, Status Effect |
 | 9 | Item Affix Generator | Economy | MVP | Designed | design/gdd/item-affix-generator.md | — |
 | 10 | Item System | Economy | MVP | Designed | design/gdd/item-system.md | Item Affix Generator |
-| 11 | Drop Table | Economy | MVP | Not Started | — | Item System |
+| 11 | Drop Table | Economy | MVP | Designed | design/gdd/drop-table.md | Item System |
 | 12 | Inventory System | Economy | MVP | Not Started | — | Item System |
 | 13 | Equipment Slot System | Economy | MVP | Not Started | — | Item System, Inventory System |
 | 14 | Monster/Enemy AI | Gameplay | MVP | Not Started | — | Damage Calculator, Status Effect |
@@ -187,10 +187,10 @@ Effort: S = 1 session, M = 2-3 sessions, L = 4+ sessions
 | Metric | Count |
 |--------|-------|
 | Total systems identified | 28 |
-| Design docs started | 10 |
+| Design docs started | 11 |
 | Design docs reviewed | 0 |
 | Design docs approved | 0 |
-| MVP systems designed | 10/18 |
+| MVP systems designed | 11/18 |
 | Vertical Slice systems designed | 0/7 |
 
 ---
